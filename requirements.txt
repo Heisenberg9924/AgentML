@@ -1,0 +1,139 @@
+
+# =========================================================
+# AUTONOMOUS ML SCIENTIST — REQUIREMENTS
+# =========================================================
+
+# =========================
+# CORE DATA + ML
+# =========================
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+
+# =========================
+# BOOSTING MODELS
+# =========================
+xgboost>=2.1.0
+lightgbm>=4.5.0
+catboost>=1.2.7
+
+# =========================
+# FEATURE ENGINEERING
+# =========================
+feature-engine>=1.8.1
+category-encoders>=2.6.3
+
+# =========================
+# EXPLAINABILITY
+# =========================
+shap>=0.46.0
+numba>=0.60.0
+llvmlite>=0.43.0
+
+# =========================
+# VISUALIZATION
+# =========================
+matplotlib>=3.9.0
+seaborn>=0.13.2
+plotly>=5.24.0
+
+# =========================
+# MODEL SAVING + TRACKING
+# =========================
+joblib>=1.4.2
+mlflow>=2.16.0
+
+# =========================
+# AI AGENTS + LLMs
+# =========================
+pydantic>=2.9.2
+pydantic-ai>=0.0.14
+
+# GROQ SUPPORT
+groq>=0.11.0
+
+# LOCAL LLM SUPPORT
+ollama>=0.3.3
+
+# =========================
+# STREAMLIT UI
+# =========================
+streamlit>=1.39.0
+
+# =========================
+# API + BACKEND
+# =========================
+fastapi>=0.115.0
+uvicorn>=0.30.6
+
+# =========================
+# CONFIG + ENVIRONMENT
+# =========================
+pyyaml>=6.0.2
+python-dotenv>=1.0.1
+
+# =========================
+# LOGGING + UTILITIES
+# =========================
+tqdm>=4.66.5
+rich>=13.9.2
+loguru>=0.7.2
+
+# =========================
+# STATISTICS
+# =========================
+statsmodels>=0.14.3
+
+# =========================
+# OPTIONAL NLP SUPPORT
+# (future semantic dataset understanding)
+# =========================
+nltk>=3.9.1
+spacy>=3.8.2
+
+# =========================
+# DOCUMENT PROCESSING
+# (future PDF/table ingestion)
+# =========================
+pymupdf>=1.24.10
+pdfplumber>=0.11.4
+
+# TABLE EXTRACTION
+camelot-py>=1.0.0
+tabula-py>=2.9.3
+
+# OCR
+easyocr>=1.7.2
+pytesseract>=0.3.13
+
+# =========================
+# RETRIEVAL / VECTOR SEARCH
+# (future RAG support)
+# =========================
+#faiss-cpu>=1.8.0
+#sentence-transformers>=3.2.0
+#llama-index>=0.11.14
+
+# =========================
+# WEB SCRAPING
+# =========================
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+
+# =========================
+# DATABASE SUPPORT
+# =========================
+#sqlalchemy>=2.0.35
+
+# =========================
+# NOTEBOOK SUPPORT
+# =========================
+jupyter>=1.1.1
+ipykernel>=6.29.5
+
+# =========================
+# TESTING
+# =========================
+pytest>=8.3.3
+
