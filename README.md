@@ -17,7 +17,6 @@ AgentML is composed of specialized agents, each responsible for a distinct stage
 | Dataset Analysis Agent    | Understands dataset structure and prediction task |
 | Feature Engineering Agent | Cleans, transforms, and prepares data             |
 | Experiment Agent          | Trains and benchmarks multiple ML models          |
-| Explainability Agent      | Generates SHAP-based model explanations           |
 | Critic Agent              | Reviews results and suggests improvements         |
 
 ---
@@ -98,7 +97,7 @@ AgentML automatically selects the optimal model using task-specific metrics.
 
 ### 🔍 Explainable AI
 
-The Explainability Agent provides:
+The Explainability tool provides:
 
 * SHAP Feature Importance
 * Global Model Explanations
@@ -199,7 +198,7 @@ The Experiment Agent:
 
 ### 4. Explainability
 
-The Explainability Agent:
+The Explainability Tool:
 
 * Generates SHAP explanations
 * Produces feature importance reports
@@ -260,7 +259,7 @@ AgentML/
 │   ├── dataset_analysis_agent.py
 │   ├── feature_engineering_agent.py
 │   ├── experiment_agent.py
-│   ├── explainability_agent.py
+│   ├── base_agent.py
 │   └── critic_agent.py
 │
 ├── tools/
